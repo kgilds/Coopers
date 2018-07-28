@@ -1,0 +1,23 @@
+--- 
+title: "Cooper's Adventures at Campfire"
+author: "Cooper Gilds"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+documentclass: book
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+description: "This book details my adventures at Campfire during the summer of 2018."
+---
+
+# Prerequisites
+
+Cooper is 8 years old and will going into the 3rd grade at Carlton Palmore Elemantary
+
+
+```{r include=FALSE}
+# automatically create a bib database for R packages
+knitr::write_bib(c(
+  .packages(), 'bookdown', 'knitr', 'rmarkdown'
+), 'packages.bib')
+```
